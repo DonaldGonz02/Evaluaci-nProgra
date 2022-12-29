@@ -9,6 +9,8 @@ SET time_zone = "+00:00";
 
 --
 -- Base de datos: `simple_stock`
+CREATE DATABASE `simple_stock`;
+USE `simple_stock`;
 -- --------------------------------------------------------
 -- Estructura de tabla para la tabla `categorias`
 
@@ -69,8 +71,9 @@ CREATE TABLE IF NOT EXISTS `users` (
 -- Volcado de datos para la tabla `users`
 --
 INSERT INTO `users` (`user_id`, `firstname`, `lastname`, `user_name`, `user_password_hash`, `user_email`, `date_added`) VALUES
-(1, 'Obed', 'Alvarado', 'admin', '$2y$10$MPVHzZ2ZPOWmtUUGCq3RXu31OTB.jo7M9LZ7PmPQYmgETSNn19ejO', 'admin@admin.com', '2016-12-19 15:06:00');
+(1, 'DONALD', 'GONZ', 'ADMIN', 'Gon$02', 'rexgrady16@gmail.com', '2022-10-07 21:07:48');
 
+SELECT*FROM `users`;
 --
 -- Índices para tablas volcadas
 --
